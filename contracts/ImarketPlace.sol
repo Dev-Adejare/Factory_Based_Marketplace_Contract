@@ -18,7 +18,7 @@ interface ImarketPlace {
             bool isAvailable
         );
 
-    function getItemCount() external view returns (uint256);
+    function getItemCount()external view returns (uint256);
 
     function getAvailableItems() external view returns (uint256[] memory);
 }
